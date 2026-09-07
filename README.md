@@ -17,7 +17,7 @@ Para jogar, abra o arquivo [index.html](index.html) pelo seu navegador, clique e
 # Tecnologias
 
 - JavaScript
-- `\<canvas>`
+- `<canvas>`
 
 # Sistemas
 
