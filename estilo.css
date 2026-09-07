@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+        margin: 0;
+        border: 0;
+        padding: 0;
+}
+
+body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(61, 61, 61);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main#jogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+canvas#canvas-do-jogo {
+        width: 960px;
+        height: 600px;
+        background-color: black;
+}
+
+a {
+        color: rgb(23, 156, 158);
+        font-size: 24px;
+        text-decoration: none;
+}
+
+hr {
+        border: 1px solid rgb(61, 61, 61);
+        width: 100%;
+        margin: 10px 5px;
+}
+
+nav {
+        margin-top: 10px;
+}
+
+nav > :not(:first-child) {
+        border-left: 2px solid rgb(61, 61, 61);
+}
+
+nav > * {
+        padding: 10px 10px;
+}
+
+main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: rgb(247, 247, 247);
+        color: rgb(15, 15, 15);
+        width: 98ch;
+
+        box-sizing: border-box;
+        padding: 0 100px;
+}
+
+main:is(#principal, #creditos) {
+        height: 100vh;
+}
+
+h1 {
+        margin-bottom: 20px;
+}
+
+p {
+        margin-bottom: 10px;
+        align-self: flex-start;
+        text-align: justify;
+}
+
+a.normal {
+        font-size: initial;
+}
+
+h2 {
+        align-self: flex-start;
+        margin: 20px 0;
+}
+
+button {
+        background-color: rgb(74, 118, 74);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 10px 0;
+}
